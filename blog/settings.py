@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), 
-                'https://blog-strikes-back.herokuapp.com/']
+                'blog-strikes-back.herokuapp.com']
 
 
 # Application definition
